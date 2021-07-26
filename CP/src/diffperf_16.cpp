@@ -252,7 +252,7 @@ void getSwitchName () {
 void init_tables() {
   if (switchid == 1) {
     //system("$SDE_INSTALL/bin/bfshell -f ../commands/commands-newtopo-ports-tofino1.txt");
-    system("$SDE_INSTALL/bin/bfshell -b ../commands/commands-newtopo-tables-tofino1.py");
+    system("$SDE_INSTALL/bin/bfshell -b ../commands-newtopo-tables-tofino1.py");
     printf("DONE adding commands for initializing tables, ports, and multicast!\n\n\n");
   } 
 }
